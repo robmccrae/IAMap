@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+a {
+	display: inline-block;
+	padding: 10px;
+	background-color: darkblue;
+	text-decoration: none;
+	color:white;
+}
+
+#myVideo{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width:100%;
+	min-height:100%;
+}
+
+.vpcontent{
+	position: fixed;
+	bottom: 0;
+	background: rgba(0,0,0,0.5);
+	color:#f1f1f1;
+	widht:100%;
+	padding:20px;
+}
+
+#myBtn{
+	width:200px;
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	background: #000;
+	color:#fff;
+	cursor:pointer;
+}
+
+#myBtn:hover{
+	background:#ddd;
+	color:black;
+}
+
+.iaBtn{
+	width:200px;
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	background: #000;
+	color:#fff;
+	cursor:pointer;
+}
+
+
+.vpintro2{
+	color:white;
+}
+
+.health, .spa{
+	background-image: url("images/topview.png");
+}
+
+.videointro{
+	background-color: rgba(4,3,106,0.84)
+}
+h1{
+	color:white;
+}
+/*video {
+	margin: 15px 15px 15px 15px;
+	padding: 20px;
+}*/
+
+.videopage {
+	margin: 20px 40px;
+	background-color: bisque;
+	padding: 50px;
+	overflow-y: auto;
+}
+
+.videopageart1 {
+	float: left;
+	background-color: aquamarine;
+	padding: 20px;
+	width: 47%;
+	margin-right:2%;
+	
+}
+
+.videopageart2 {
+	float: left;
+	background-color: darkgoldenrod;
+	padding: 20px;
+	width: 47%;
+	margin-left:2%;
+}
+
+.flight {
+	width: 100%;
+}

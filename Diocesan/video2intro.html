@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.2.1.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  	<!-- body code goes here -->
+	<video autoplay muted loop id="myVideo">
+	  <source src="images/DJI_0078.MP4" type="video/mp4"> 
+	</video>
+	  
+	  <div class="vpcontent">
+	  	<h1>Exploring Dio</h1>
+		 <p class="vpintro2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas sed tempus urna et pharetra pharetra. Bibendum at varius vel pharetra vel. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Enim neque volutpat ac tincidunt vitae. Ac auctor augue mauris augue neque gravida in fermentum et. Est ultricies integer quis auctor elit sed vulputate mi. Cursus mattis molestie a iaculis at erat pellentesque. Porttitor massa id neque aliquam vestibulum morbi blandit cursus risus.</p>
+		  
+		  <button id="myBtn" onclick="myFunction()">Pause</button>
+			<a href="index.html">Interactive Map</a>
+	  
+	  </div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.2.1.js"></script>
+	<script>
+		// Get the video
+		var video = document.getElementById("myVideo");
+
+		// Get the button
+		var btn = document.getElementById("myBtn");
+
+		// Pause and play the video, and change the button text
+		function myFunction() {
+		  if (video.paused) {
+			video.play();
+			btn.innerHTML = "Pause";
+		  } else {
+			video.pause();
+			btn.innerHTML = "Play";
+		  }
+		}
+	</script>
+  </body>
+</html>
